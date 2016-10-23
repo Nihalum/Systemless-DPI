@@ -32,18 +32,18 @@
 # NOTE: This part has to be adjusted to fit your own needs
 
 # Is this a cache mod?
-CACHEMOD=false
+CACHEMOD=true
 
 # This will be the folder name under /magisk or /cache/magisk
 # This should also be the same as the id in your module.prop to prevent confusion
-MODID=template
+MODID=systemless-dpi
 
 # Set to true if you need automount
 # Most mods would like it to be enabled
 AUTOMOUNT=true
 
 # Set to true if you need post-fs script (Only available in cache mods)
-POSTFS=false
+POSTFS=true
 
 # Set to true if you need post-fs-data script (Only available in non-cache mods)
 POSTFSDATA=false
@@ -59,7 +59,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "       Setting DPI to 540      "
   ui_print "*******************************"
 }
 
@@ -72,16 +72,16 @@ print_modname() {
 # Directories listed here however, will be directly mounted to the correspond directory in the system
 
 # This is an example
-REPLACE="
-/system/app/Youtube
-/system/priv-app/SystemUI
-/system/priv-app/Settings
-/system/framework
-"
+#REPLACE="
+#/system/app/Youtube
+#/system/priv-app/SystemUI
+#/system/priv-app/Settings
+#/system/framework
+#"
 
 # Construct your own list
-REPLACE="
-"
+#REPLACE="
+#"
 
 ##########################################################################################
 # Permissons

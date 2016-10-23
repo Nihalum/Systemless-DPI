@@ -1,9 +1,9 @@
-id=template
-name=Template Module
+id=systemless-dpi
+name=Systemless DPI (540)
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
-support=http://forum.xda-developers.com/showthread.php?t=3432382
-donate=http://topjohnwu.github.io/donate
-cacheModule=false
+author=nihalum
+description=Lowly module that modifies ro.sf.lcd_density to 540
+support=n/a
+donate=n/a
+cacheModule=true
