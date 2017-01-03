@@ -1,2 +1,4 @@
 v1
-   -hello its me
+    -hello its me
+v2
+	-v10 Magisk support
