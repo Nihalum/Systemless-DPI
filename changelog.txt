@@ -1,4 +1,6 @@
 v1
     -hello its me
-v2
+v1.1
 	-v10 Magisk support
+v1.2
+	-direct resetprop instead of using propfile
